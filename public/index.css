@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: whitesmoke;
+}
+
+heading {
+  text-align: center;
+  font-weight: 700px;
+}
+
+heading .togglePrice {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.annually {
+  margin-top: 13px;
+}
+
+.monthly {
+  margin-top: 13px;
+}
+
+.cardOfDetails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.firstCard {
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.secondCard {
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.thirdCard {
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  background-color: white;
+  border-radius: 20px;
+}
+
+span {
+  font-size: 3rem;
+}
+
+.dollarSign {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+}
+
+/*Card  hover */
+
+.firstCard:hover button {
+  background-color: white;
+  color: #9297eb;
+}
+
+.firstCard:hover {
+  background-color: #9297eb;
+  transform: scale(1.1);
+  transition: transform 0.4s linear;
+  color: white;
+}
+
+.secondCard:hover button {
+  background-color: white;
+  color: #9297eb;
+}
+
+.secondCard:hover {
+  background-color: #9297eb;
+  transform: scale(1.1);
+  transition: transform 0.4s linear;
+  color: white;
+}
+
+.thirdCard:hover button {
+  background-color: white;
+  color: #9297eb;
+}
+
+.thirdCard:hover {
+  background-color: #9297eb;
+  transform: scale(1.1);
+  transition: transform 0.4s linear;
+  color: white;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #9297eb;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 700px;
+  border: 0;
+}
+
+hr {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#slider-box {
+  position: relative;
+  margin: 10px;
+  height: 24px;
+  width: 52px;
+  background-color: #9297eb;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.slider-monthly {
+  position: absolute;
+  transition: 0.4s;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  right: 2px;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.slider-annually {
+  position: absolute;
+  transition: right 0.4s linear;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  right: 29px;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#top-image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+#bottom-image {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+}
