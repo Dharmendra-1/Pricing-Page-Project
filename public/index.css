@@ -27,8 +27,10 @@ heading .togglePrice {
 .cardOfDetails {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .firstCard {
