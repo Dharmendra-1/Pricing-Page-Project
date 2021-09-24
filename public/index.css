@@ -163,14 +163,14 @@ hr {
   background-color: white;
 }
 
-#top-image {
+.top-image {
   position: absolute;
   z-index: -1;
   top: 0;
   right: 0;
 }
 
-#bottom-image {
+.bottom-image {
   position: absolute;
   z-index: -1;
   bottom: 0;
